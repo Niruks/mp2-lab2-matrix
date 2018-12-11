@@ -176,7 +176,7 @@ TVector<ValType> TVector<ValType>::operator-(const TVector<ValType> &v)
 	if (Size != v.Size)
 	{
 		throw - 1;
-	}
+	}///
 	TVector<ValType> Res(Size - StartIndex);
 	for (int i = 0; i < (Size - StartIndex); i++)
 	{
